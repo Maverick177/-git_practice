@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      
+      <img src="../IMAGENES/MIB.png" alt="" class="miblogo">
+      <a href="" class="signin">Sign in</a>
+      <nav>  
+        <a href="#home"><li>Home</li></a>
+        <a href="#myprojects"><li>My projects</li></a>
+        <a href="#contactme"><li>Contact</li></a>
+      </nav>
+    </header> 
+  
+    <section class="banner" id="home">
+      <div class="bannertext">
+        
+          <h1>Mauricio Ideler Belegoti Web Designer</h1>
+        <p class="intro">"There are two ways to coding without errors; only the third works"</p>
+       
+        
+        
+      </div> 
+      <p class="languagestitle">Programming languages used in my projects</p>
+      <p class="languages">HTML</p><p class="languages">css</p><p class="languages">Javascript</p>
+
+        <div class="loslogos">
+          <img src="../../Downloads/htmllogo.png" class="htmlll logo" alt=""> 
+          <img src="../../Downloads/logocss.jpg" alt="" class="css logo">
+          <img src="../../Downloads/jslogo.png" alt="" class="js logo">
+        </div>
+        <button class="projectstitle">My projects</button>    
+      </section>
+      
+    <section class="projects" id="myprojects">
+    
+        
+        <ul class="dropdown"> 
+          <li class="dropdown1">Selectors list reference</li> 
+          <li class="dropdown2">Guide to design web pages</li>
+          <li class="dropdown3">Tea Cozy Project</li>
+          <li class="dropdown4">Fotomatic Project</li>
+        </ul> 
+     
+      
+
+    <div class="projectsimg">
+      <img src="../IMAGENES/pexels-anete-lusina-4792728.jpg" alt="">
+      <img src="../IMAGENES/pexels-anete-lusina-5240544.jpg" alt="">
+      <img src="../IMAGENES/pexels-vlad-bagacian-1337753.jpg" alt="">
+      <img src="../IMAGENES/pexels-erik-mclean-7487498.jpg" alt="">
+      <div class="bottom-left">This project was about the list of selectors <br>
+        that exists. Selectors are very complex <br>because of 
+         the specificity rule and other features around 
+         Selectors are a very useful tool, since  they allow 
+         you to apply styles to elements through classes, ids and tags.<br>
+      </div>
+      <div class="bottom-left2">This project refers to the fundamental elements 
+        to take into account when creating a web page. 
+        To the primary guidelines, such as, for example, 
+        the fonts and colors to use.
+        It is always convenient to use two or three 
+        colors  at most and the same happens with fonts.</div>
+        <div class="bottom-left3">The Tea Cozy project is a web page in which I <br>
+           tested all the properties and elements of <br>
+            the CSS language that I had learned so far. <br>
+             It was a challenging project but when I finished <br>
+             it, it allowed me to emerge stronger, <br>
+              capturing the knowledge I had acquired.</div>
+      <div class="bottom-left4">In this project, I repaired a broken version <br> 
+        of a responsive website called Fotomatic. <br>
+         A partr specifications that guided me <br>
+          in making adjustments to the broken code. <br> 
+         While I fixed the Fotomatic bugs, <br>
+          I used my Chrome DevTools skills to <br> 
+          figure out and update the site's CSS.</div>
+    </div>
+    </section>
+
+    <section class="form">
+      <div class="targetform">
+        <form action="" id="form1">
+          <p>What programming lenguages would you like to learn?</p>
+          <label for="C">C</label>
+          <input type="checkbox" id="C" name="languages" value="c" class="input">
+          <label for="C++">C++</label>
+          <input type="checkbox" id="C++" name="languages" value="c++" class="input">
+          <label for="PHP">PHP</label>
+          <input type="checkbox" id="PHP" name="languages" value="php" class="input"><br>
+          <label for="phyton">Phyton</label>
+          <input type="checkbox" id="phyton" name="languages" value="phyton" class="input">
+          <label for="ruby">Ruby</label>
+          <input type="checkbox" id="ruby" name="languages" class="input">
+          <label for="sql">SQL</label>
+          <input type="checkbox" id="sql" name="languages" value="sql" style="margin-bottom: 50px;" class="input"><br >
+            <hr>
+          <br>
+          <label for="others">Are you interested in any other lenguages?<br> Let me know!</label>
+          <input type="text" list="other" id="others" style="margin-bottom: 40px;" name="others">
+           <hr>
+          <datalist id="other">
+            <option value="Shell"></option>
+            <option value="Ajax"></option>
+            <option value="Pearl"></option>
+            <option value="Javascript"></option>
+            <option value="React"></option>
+            <option value="Other"></option>
+          </datalist ><br><br>
+              
+              <label for="blog">Leave a comment!</label>
+              <br>
+              <textarea id="blog" name="blog" rows="5" cols="30">
+              </textarea> 
+              <button type="submit" form="form1" value="Submit" class="submit">Submit</button>
+        </form>
+          
+      </div>
+    </section>
+    
+    
+    <footer id="contactme">
+    <img src="../IMAGENES/MIB.png"  alt="">
+        <p class="contactpage">GET IN TOUCH</p>
+        <img src="../IMAGENES/instagramlogo.png" alt="" style="width: 40px" class="contactlogo">
+        <img src="../IMAGENES/facebooklogo.jpg" alt="" class="contactlogo">
+        <img src="../IMAGENES/twitterlogo.png" alt="" class="contactlogo">
+        <p class="mib">MIB PROGRAMACION</p>
+
+      
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
+
